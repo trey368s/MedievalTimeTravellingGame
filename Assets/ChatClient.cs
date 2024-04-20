@@ -8,7 +8,7 @@ using Azure;
 public class ChatClient : MonoBehaviour
 {
     private HttpClient _client;
-    private string _apiKey = "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";
+    private string _apiKey = "";
     private string _apiEndpoint = "https://api.openai.com/v1/chat/completions";
     public float temperature = 0.2f;
     public string model = "gtp-3.5-turbo";
